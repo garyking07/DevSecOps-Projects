@@ -4,8 +4,8 @@ provider "aws" {
 resource "aws_s3_bucket" "terraformbucketgk" {
   bucket = "terraformbucketgk"
 }
-resource "aws_s3_bucket" "terraformbucketgk" {
-  bucket = "terraformbucketgk"
+resource "aws_s3_bucket" "terraformbucketgk1" {
+  bucket = "terraformbucketgk1"
 }
 terraform {
   backend "s3" {
